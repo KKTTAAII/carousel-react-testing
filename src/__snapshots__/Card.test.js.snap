@@ -5,17 +5,17 @@ exports[`matches snapshot 1`] = `
   <div
     class="Card"
   >
-    <h4
+    <span
       class="Card-title"
     />
     <img
       class="Card-image"
     />
-    <small
+    <span
       class="Card-small"
     >
       Image  of .
-    </small>
+    </span>
   </div>
 </DocumentFragment>
 `;

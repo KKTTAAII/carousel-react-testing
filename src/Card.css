@@ -5,11 +5,13 @@
 
 .Card-title {
   margin: 0 0 0.5em 0;
+  font-weight: bold;
 }
 
 .Card-small {
   margin-top: 0.5em;
   font-style: italic;
+  font-size: small;
 }
 
 .Card-image {

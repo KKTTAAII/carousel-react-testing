@@ -18,21 +18,21 @@ exports[`matches snapshot 1`] = `
       <div
         class="Card"
       >
-        <h4
+        <span
           class="Card-title"
         >
           Photo by Richard Pasquarella on Unsplash
-        </h4>
+        </span>
         <img
           alt="Photo by Richard Pasquarella on Unsplash"
           class="Card-image"
           src="image1.jpg"
         />
-        <small
+        <span
           class="Card-small"
         >
           Image 1 of 3.
-        </small>
+        </span>
       </div>
       <i
         class="fas fa-chevron-circle-right fa-2x"

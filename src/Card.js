@@ -1,14 +1,14 @@
 import React from "react";
 import "./Card.css";
 
-function Card(props) {
+const Card = ({caption, src, totalNum, currNum}) => {
   return (
     <div className="Card">
-      <h4 className="Card-title">{props.caption}</h4>
-      <img className="Card-image" src={props.src} alt={props.caption} />
-      <small className="Card-small">
-        Image {props.currNum} of {props.totalNum}.
-      </small>
+      <span className="Card-title">{caption}</span>
+      <img className="Card-image" src={src} alt={caption} />
+      <span className="Card-small">
+        Image {currNum} of {totalNum}.
+      </span>
     </div>
   );
 }
