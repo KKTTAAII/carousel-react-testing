@@ -17,7 +17,7 @@ function Carousel(props) {
       <h1>{props.title}</h1>
       <div className="Carousel-main">
         <i
-          className="fas fa-chevron-circle-left fa-2x"
+          className={cardIdx === 0 ? "fas fa-chevron-circle-left fa-2x hide" : "fas fa-chevron-circle-left fa-2x"}
           onClick={goBackward}
           data-testid="left-arrow"
         />
@@ -28,7 +28,7 @@ function Carousel(props) {
           totalNum={total}
         />
         <i
-          className="fas fa-chevron-circle-right fa-2x"
+          className={cardIdx === total-1 ? "fas fa-chevron-circle-right fa-2x hide" : "fas fa-chevron-circle-right fa-2x"}
           onClick={goForward}
           data-testid="right-arrow"
         />
